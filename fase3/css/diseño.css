@@ -1,0 +1,150 @@
+body{
+    background-color: #091353;
+   
+}
+
+header{
+  background-image: url(cintillo.jpg);
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1000px;
+  min-height: 130px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0 ;
+
+}
+
+h3{
+    text-align: center;
+}
+
+div{
+    background:#D5D5D5;
+    width: 100%;
+    height: 45%;
+}
+
+.imagenes{
+    width:210px;
+    height:200px;
+    margin: auto;
+    display: block;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+
+nav ul{
+
+    background-color:#9D84B7;
+    max-width: 1000px;
+    min-height: 40px;
+    margin: 0 auto;
+    list-style: none;
+    width: 995px;
+    padding: 3px;
+    height: 40px;
+    align-items: center;
+   
+}
+
+nav ul li{
+    /*border: 1px solid black;*/
+     display: inline-block;
+     width: 160px;
+     vertical-align: top;
+     justify-content: flex-end;
+}
+nav ul li a{
+     display: block;
+     color: white;
+     font-size: medium;
+     text-transform: uppercase; 
+     text-decoration: none;
+     background-color: lightcoral;
+     margin: 5px;
+     padding: 5px;
+     transition: background-color 2s;
+     text-align: center;
+     font-size: small;
+    
+
+}
+
+nav ul li a:hover{
+    /*margin-left: 30px;*/
+    background: #091353;
+
+}
+
+nav ul li ul li{
+    display: block;
+}
+
+nav ul li ul {
+    width: 160px;
+    height: 70px;
+    display: none;
+    
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a{
+    
+    background: rosybrown;
+}
+
+nav ul ul{
+    
+    position: absolute;
+}
+
+section{
+    background-color:#D5D5D5;
+    grid-column:1/4;
+    margin-left: 55px;
+    padding:20px;
+    height: 700px;
+    width: auto;
+}
+aside{
+    background-color: darkcyan;
+    grid-column: 4/5;
+    margin-right: 55px;
+    max-height: 740px;
+}
+
+aside ::content
+{
+    height: 200px;
+}
+footer{
+    background-color: #a5f2f5;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px ;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+p{
+    text-align: justify;
+    width: 610px;
+   font-family:'Times New Roman', Times, serif;
+   
+}
