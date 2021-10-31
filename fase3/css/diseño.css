@@ -122,10 +122,6 @@ aside{
     max-height: 740px;
 }
 
-aside ::content
-{
-    height: 200px;
-}
 footer{
     background-color: #a5f2f5;
     max-width: 1000px;
